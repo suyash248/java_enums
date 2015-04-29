@@ -1,5 +1,5 @@
 code, key, name, toString = individualRole	// RoleType.individaulRole.getKey(); OR RoleType.individaulRole.getName();
-Label = Individual Role		// RoleType.individaulRole.getLabel();
+Label = Individual Role		/* RoleType.individaulRole.getLabel(); */
 
 public static enum RoleType{
 		individualRole("Individual Role"), grpRole("Group Role");
