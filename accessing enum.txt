@@ -2,7 +2,8 @@ code, key, name, toString = individualRole	// RoleType.individaulRole.getKey(); 
 Label = Individual Role		// RoleType.individaulRole.getLabel();
 
 public static enum RoleType{
-		individualRole("Individual Role"), grpRole("Group Role");
+		individualRole("Individual Role"), grpRole("Group Role"),
+		sideRole("Side Role");
 		private String label;
 		private RoleType(String label){
 			this.label = label;
